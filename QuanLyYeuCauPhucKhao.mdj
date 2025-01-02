@@ -1,0 +1,144 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Quản lý yêu cầu phúc khảo",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Hiện trạng - Model",
+			"ownedElements": [
+				{
+					"_type": "UMLModel",
+					"_id": "AAAAAAGUJlTO1hRQNo0=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Domain Model",
+					"ownedElements": [
+						{
+							"_type": "UMLClassDiagram",
+							"_id": "AAAAAAGUJlW6jRRVLuA=",
+							"_parent": {
+								"$ref": "AAAAAAGUJlTO1hRQNo0="
+							},
+							"name": "ClassDiagram"
+						}
+					]
+				},
+				{
+					"_type": "UMLModel",
+					"_id": "AAAAAAGUJlbUxhRZUvM=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Business Use Case Model",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCaseDiagram",
+							"_id": "AAAAAAGUJlfMVBRgBy4=",
+							"_parent": {
+								"$ref": "AAAAAAGUJlbUxhRZUvM="
+							},
+							"name": "UseCaseDiagram"
+						}
+					]
+				},
+				{
+					"_type": "UMLActivity",
+					"_id": "AAAAAAGUJlqYhBRyHSs=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Activity Model",
+					"ownedElements": [
+						{
+							"_type": "UMLActivityDiagram",
+							"_id": "AAAAAAGUJlqYhBRznbo=",
+							"_parent": {
+								"$ref": "AAAAAAGUJlqYhBRyHSs="
+							},
+							"name": "ActivityDiagram"
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGUJlIWSRRKmd0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Hệ thống đề xuất - Model",
+			"ownedElements": [
+				{
+					"_type": "UMLModel",
+					"_id": "AAAAAAGUJl53tBR5GTk=",
+					"_parent": {
+						"$ref": "AAAAAAGUJlIWSRRKmd0="
+					},
+					"name": "Class Model",
+					"ownedElements": [
+						{
+							"_type": "UMLClassDiagram",
+							"_id": "AAAAAAGUJl7dNhR9UyQ=",
+							"_parent": {
+								"$ref": "AAAAAAGUJl53tBR5GTk="
+							},
+							"name": "ClassDiagram"
+						}
+					]
+				},
+				{
+					"_type": "UMLModel",
+					"_id": "AAAAAAGUJl+pJRSByUQ=",
+					"_parent": {
+						"$ref": "AAAAAAGUJlIWSRRKmd0="
+					},
+					"name": "Usecase Model",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCaseDiagram",
+							"_id": "AAAAAAGUJmCkBBSGcjI=",
+							"_parent": {
+								"$ref": "AAAAAAGUJl+pJRSByUQ="
+							},
+							"name": "UseCaseDiagram"
+						}
+					]
+				},
+				{
+					"_type": "UMLStateMachine",
+					"_id": "AAAAAAGUJmx4tBSk/rY=",
+					"_parent": {
+						"$ref": "AAAAAAGUJlIWSRRKmd0="
+					},
+					"name": "StateMachine",
+					"ownedElements": [
+						{
+							"_type": "UMLStatechartDiagram",
+							"_id": "AAAAAAGUJmx4tBSm9b8=",
+							"_parent": {
+								"$ref": "AAAAAAGUJmx4tBSk/rY="
+							},
+							"name": "StatechartDiagram"
+						}
+					],
+					"regions": [
+						{
+							"_type": "UMLRegion",
+							"_id": "AAAAAAGUJmx4tBSl8eg=",
+							"_parent": {
+								"$ref": "AAAAAAGUJmx4tBSk/rY="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
